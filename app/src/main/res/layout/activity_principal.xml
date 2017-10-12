@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.chaves.lucas.bluetooth.PrincipalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnVerifica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Verifica"
+            android:text="Verificar e ativar Bluetooth" />
+
+        <Button
+            android:id="@+id/btnDispositivos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Pareados"
+            android:text="Dispositivos pareados" />
+
+        <Button
+            android:id="@+id/btnConhecido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="EncontraConhecido"
+            android:text="Encontrar dispositivo pelo endereço" />
+
+        <Button
+            android:id="@+id/btnBusca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Buscar"
+            android:text="Buscar dispositivos" />
+
+        <Button
+            android:id="@+id/btnVisivel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Visivel"
+            android:text="Ficar visível" />
+
+        <Button
+            android:id="@+id/btnServer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Server"
+            android:text="Iniciar servidor - aguardar mensagem" />
+
+        <Button
+            android:id="@+id/btnCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Cliente"
+            android:text="Iniciar - cliente" />
+
+        <Button
+            android:id="@+id/btnSair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Sair"
+            android:text="Sair" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
