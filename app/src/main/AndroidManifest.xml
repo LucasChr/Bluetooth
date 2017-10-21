@@ -24,7 +24,8 @@
         <activity android:name=".Bluetooth.BuscarDispositivosActivity" />
         <activity android:name=".Bluetooth.BuscaEnderecoActivity" />
         <activity android:name=".Bluetooth.ReceberMensagemActivity" />
-        <activity android:name=".Bluetooth.BluetoothClienteActivity"></activity>
+        <activity android:name=".Bluetooth.BluetoothClienteActivity" />
+        <activity android:name=".Bluetooth.ListaDispositivos" />
     </application>
 
 </manifest>

@@ -16,7 +16,7 @@ import java.io.InputStream;
 import java.util.UUID;
 
 public class ReceberMensagemActivity extends BluetoothCheckActivity {
-    private static final UUID uuid = UUID.fromString("d643d111-f8b5-422f-a2ed-4fbcbdf26252");
+    private static final UUID uuid = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
     private boolean running;
     private BluetoothServerSocket serverSocket;
     private BluetoothSocket socket;
